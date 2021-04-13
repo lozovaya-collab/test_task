@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+$main_color_white: #FFFF;
+$main_color_black: black;
+$main_color_red: #ff431e;
+$main_color_blue: #1da2ff;
+$main_color_blue_press_btn: #0694f8;
+$light_color_grey: #c8c8c8;
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin input {
+    font: {
+        family: 'Open Sans', serif;
+        weight: bold;
+        size: 12px;
+    }
+}
+
+@mixin openSansBold {
+    font: {
+        family: 'Open Sans', serif;
+        weight: bold;
+    }
+}
+
+@font-face {
+    font-family: 'inglobal';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../assets/fonts/inglobal.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'inglobalbi';
+    font-weight: bold;
+    font-style: italic;
+    src: url('../assets/fonts/inglobalbi.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'inglobali';
+    font-weight: normal;
+    font-style: italic;
+    src: url('../assets/fonts/inglobali.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'inglobalb';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../assets/fonts/inglobalb.ttf') format("truetype");
+}
+
+.logo {
+    font-family: "inglobalbi";
+}

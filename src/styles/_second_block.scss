@@ -1,0 +1,141 @@
+    .second_block {
+        height: 855px;
+        &__wrapper {
+            z-index: -100;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-items: center;
+            width: 1300px;
+            height: 100%;
+            background-color: $main_color_white;
+            &_form_and_info {
+                display: flex;
+                margin: 0;
+                width: 100%;
+                flex-direction: row-reverse;
+                align-items: center;
+            }
+            &__first_part {
+                z-index: 0;
+                margin-top: 112px;
+            }
+            &__second_part {
+                z-index: 0;
+                margin-top: 112px;
+                width: 515px;
+                margin-right: 20px;
+                &_title {
+                    font-family: "inglobalbi";
+                    color: $main_color_blue_press_btn;
+                    font-size: 35px;
+                }
+                &_text {
+                    margin-top: 20px;
+                    font-family: 'Open Sans', serif;
+                }
+            }
+        }
+        &__header_of_form {
+            &_hat {
+                z-index: 1;
+                width: 207px;
+                height: 208px;
+                margin-left: -97px;
+                margin-top: -124px;
+                position: absolute;
+            }
+            &_shadow {
+                z-index: 0;
+                width: 106px;
+                height: 61px;
+                margin-left: -29px;
+                margin-top: 0px;
+                position: absolute;
+            }
+            &_flag {
+                z-index: -3;
+                height: 191px;
+                width: 184px;
+                margin-left: 44px;
+                margin-top: -82px;
+                position: absolute;
+            }
+            &_present {
+                z-index: -2;
+                margin-left: 138px;
+                margin-top: -55px;
+                position: absolute;
+                width: 131px;
+                height: 114px;
+            }
+        }
+        &_form {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            line-height: 170%;
+            background-color: $main_color_white;
+            height: 500px;
+            width: 345px;
+            padding: 60px 17px;
+            border: 1px solid $light_color_grey;
+            border-radius: 5px;
+            &__headline {
+                @include openSansBold;
+            }
+            &__subtitle {
+                font-family: 'Open Sans', serif;
+            }
+            &__input {
+                @include input;
+                outline: none;
+                width: 275px;
+                height: 40px;
+                border: 1px solid $light_color_grey;
+                border-radius: 5px;
+                box-shadow: inset 0px 0px 5px rgba(116, 116, 116, 0.5);
+                opacity: 0.4;
+                padding: 15px;
+            }
+            &__btn {
+                font-family: 'Open Sans', serif;
+                cursor: pointer;
+                background-color: $main_color_blue;
+                color: $main_color_white;
+                outline: none;
+                border-color: $main_color_blue;
+                border-radius: 5px;
+                width: 275px;
+                height: 35px;
+                &:hover {
+                    background-color: $main_color_blue_press_btn;
+                    @include openSansBold;
+                }
+                &:active {
+                    background-color: $main_color_blue_press_btn;
+                    @include openSansBold;
+                    transform: scale(1.05);
+                    transition: all 0.2s;
+                }
+            }
+            &__divider {
+                width: 260px;
+                height: 5px;
+            }
+            &__number {
+                @include openSansBold;
+                color: $main_color_blue_press_btn;
+                font-size: 22px;
+            }
+        }
+        &_scroll {
+            color: $main_color_blue_press_btn;
+            width: 80px;
+            &_mouse {
+                margin: 0 55px;
+            }
+        }
+    }

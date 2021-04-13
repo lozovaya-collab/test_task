@@ -1,0 +1,75 @@
+    @media all and (max-width: 767px) and (min-width: 320px) {
+        .first_block {
+            background: $main_color_white;
+            background: url("../assets/collage_m_v.png") no-repeat;
+            background-position: top;
+            width: 100%;
+            height: 592px;
+            &__button_form {
+                display: none;
+            }
+            &__wrapper {
+                width: 300px;
+                background: none;
+                &_container {
+                    margin-top: 248px;
+                    margin-left: 17px;
+                    &_title {
+                        font-family: "inglobalbi";
+                        color: $main_color_white;
+                        text-shadow: $main_color_black 4px 0 0, $main_color_black 3px 0 0, $main_color_black -2px 0 0, $main_color_black 0 3px 0, $main_color_black 0 4px 0, $main_color_black 0 5px 0, $main_color_black 0 4px 0, $main_color_black 0 -2px 0;
+                        font-size: 22px;
+                        &_second_part {
+                            margin-left: 20px;
+                        }
+                        &_third_part {
+                            margin-left: -30px;
+                        }
+                    }
+                }
+                &__image_of_dialogs {
+                    display: none;
+                }
+                &__scroll {
+                    margin-top: 182px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    hr {
+                        border: none;
+                        color: $light_color_grey;
+                        background-color: $light_color_grey;
+                        height: 0.5px;
+                    }
+                    &_line {
+                        width: 91px;
+                    }
+                    &_mouse {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        margin: 0 15px;
+                        &_icon {
+                            display: none;
+                            &_m_v {
+                                display: block;
+                                width: 38px;
+                                height: 60px;
+                            }
+                        }
+                        &_fhrase {
+                            display: none;
+                            &_m_v {
+                                display: block;
+                                color: $main_color_red;
+                                font-family: "inglobalbi";
+                                width: 50px;
+                                margin-top: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }

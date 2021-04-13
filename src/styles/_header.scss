@@ -1,0 +1,127 @@
+.header {
+    a {
+        text-decoration: none;
+    }
+    display: flex;
+    justify-content: center;
+    background-color: $main_color_white;
+    &__wrapper {
+        z-index: 3001;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 1300px;
+        height: 200px;
+    }
+    &__menu {
+        background-color: $main_color_white;
+        &_icons {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            width: 1300px;
+            &_item {
+                cursor: pointer;
+                &__image {
+                    margin-top: 10px;
+                    width: 50px;
+                    height: 50px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+                &__title {
+                    font-family: "inglobalbi";
+                    color: rgb(150, 150, 150);
+                }
+            }
+        }
+        &_logo {
+            display: block;
+            color: $main_color_black;
+            font-size: 25px;
+            margin-top: 130px;
+        }
+        text-align: center;
+        background-color: $main_color_white;
+        border-radius: 50px;
+        margin-top: -100px;
+        width: 100px;
+        height: 200px;
+    }
+    &__burger {
+        display: none;
+        &_menu {
+            display: none;
+        }
+    }
+}
+
+.first {
+    & div:first-child {
+        background-image: url("../assets/icon_1.svg");
+    }
+    &:hover {
+        & div:first-child {
+            background-image: url("../assets/icon_1_red.svg");
+        }
+        & div:last-child {
+            color: $main_color_red;
+        }
+    }
+}
+
+.second {
+    & div:first-child {
+        background-image: url("../assets/icon_2.svg");
+    }
+    &:hover {
+        & div:first-child {
+            background-image: url("../assets/icon_2_red.svg");
+        }
+        & div:last-child {
+            color: $main_color_red;
+        }
+    }
+}
+
+.third {
+    & div:first-child {
+        background-image: url("../assets/icon_3.svg");
+    }
+    &:hover {
+        & div:first-child {
+            background-image: url("../assets/icon_3_red.svg");
+        }
+        & div:last-child {
+            color: $main_color_red;
+        }
+    }
+}
+
+.fourth {
+    & div:first-child {
+        background-image: url("../assets/icon_4.svg");
+    }
+    &:hover {
+        & div:first-child {
+            background-image: url("../assets/icon_4_red.svg");
+        }
+        & div:last-child {
+            color: $main_color_red;
+        }
+    }
+}
+
+.fifth {
+    & div:first-child {
+        background-image: url("../assets/icon_5.svg");
+    }
+    &:hover {
+        & div:first-child {
+            background-image: url("../assets/icon_5_red.svg");
+        }
+        & div:last-child {
+            color: $main_color_red;
+        }
+    }
+}
