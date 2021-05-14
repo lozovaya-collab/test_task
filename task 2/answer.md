@@ -2,10 +2,16 @@
 
 @media only screen and (max-width: 500px) and (min-width: 320px) {
   
-  *{
+  * {
+  
     overflow-x: hidden;
+    
   }
-    table{
-      font-size: 12px;
-     }
+  
+  table {
+  
+    font-size: 12px;
+      
+   }
+   
 }
