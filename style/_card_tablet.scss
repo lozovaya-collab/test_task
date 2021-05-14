@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+    .card {
+        flex-direction: row;
+        border: 0.5px solid #8E8E8E;
+        border-radius: 15px;
+        width: 768px;
+        height: 290px;
+        &__image {
+            width: 390px;
+            height: 100%;
+            border-radius: 16px 0px 0px 16px;
+            margin: 0px;
+            & img {
+                border-radius: 0px;
+            }
+            &_sticker {
+                width: 120px;
+                height: 32px;
+                font-size: 14px;
+                border-radius: 0px;
+                top: 46px;
+                &-yellow {
+                    width: 130px;
+                    height: 35px;
+                    font-size: 14px;
+                    border-radius: 0px;
+                    top: 59px;
+                }
+            }
+        }
+        &__info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 400px;
+            height: 292px;
+            margin: 0 10px 0 22px;
+            &_title {
+                width: 404px;
+                font-weight: normal;
+                font-size: 20px;
+            }
+            &_list {
+                height: 120px;
+                &_item {
+                    width: 397px;
+                    &__subtitle {
+                        display: flex;
+                        margin: 0 0 0 14px;
+                        font-size: 15px;
+                        line-height: 20px;
+                    }
+                }
+            }
+            &__price-info {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 52px;
+                margin: 7px 0 0 0;
+                &_price {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin: 0 10px 0 0;
+                    width: 132px;
+                    height: 54px;
+                    &__main {
+                        display: flex;
+                        align-items: center;
+                        width: 129px;
+                        height: 28px;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 36px;
+                        line-height: 20px;
+                        & img {
+                            margin-left: 5px;
+                            height: 26px;
+                            width: 19px;
+                        }
+                    }
+                    &__dop {
+                        height: 23px;
+                        display: flex;
+                        align-items: center;
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .more_items {
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        margin-left: 0;
+        margin-bottom: 5px;
+        width: 300px;
+    }
+}

@@ -1,0 +1,64 @@
+@media only screen and (min-width: 1200px) {
+    .card {
+        flex-direction: row;
+        width: 100%;
+        height: 370px;
+        border: 0.5px solid #8E8E8E;
+        border-radius: 15px;
+        &__image {
+            width: 473px;
+            height: 100%;
+            border-radius: 16px 0px 0px 16px;
+            & img {
+                border-radius: 0px;
+            }
+            &_sticker {
+                top: 46px;
+                border-radius: 0px;
+                &-yellow {
+                    border-radius: 0px;
+                    top: 59px;
+                }
+            }
+        }
+        &__info {
+            width: 585px;
+            margin: 0 0 0 22px;
+            &_title {
+                order: 1;
+                width: 531px;
+                font-size: 26px;
+                font-weight: normal;
+                line-height: 131%;
+            }
+            &_time {
+                order: 2;
+                height: 16px;
+            }
+            &_list {
+                height: 156px;
+                &_item {
+                    width: 585px;
+                }
+            }
+            &__price-info {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 52px;
+                margin: 7px 0 0 0;
+                &_more {
+                    & button {
+                        outline: none;
+                        border: none;
+                        width: 187px;
+                        height: 52px;
+                        background: #FFD83C;
+                        border-radius: 23px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
