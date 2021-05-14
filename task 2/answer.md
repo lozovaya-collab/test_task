@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 500px) and (min-width: 320px) {
   
-  * {
+  *{
   
     overflow-x: hidden;
     
